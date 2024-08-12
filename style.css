@@ -40,6 +40,9 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: relative;
+    left: -80px;
+    
    
 
 }
@@ -431,15 +434,74 @@ form .btn2{
     margin-top: 10px; 
 }
 
+.typed-cursor {
+    opacity: 0.0;
+}
+
+nav .svg1{
+    display: none;
+}
+nav .svg2{
+    display: none;
+}
 /* ---------------CSS for Small screen------------------ */
 @media only screen and (max-width:600px){
-    .header-text{
-        margin-top: 100%;
-        font-size: 16px;
-    }
     .header-text h1{
-        
-        font-size: 30px;
+        position: relative;
+        top :220px;
+        font-size: 16px;
+        left: -50px;
+    }
+
+    
+
+    .svg1{
+        height: 30px;
+        width: 30px;
+        fill: white;
+        display: block;
+    }
+    .svg2{
+        height: 30px;
+        width: 30px;
+        fill: white;
+        display: block;
+    }
+
+    .about-col-1 img{
+        position: relative;
+        top:-47px
+    }
+    .about-col-2{
+        position: relative;
+        top:-253px;
+    }
+    #portfolio .container {
+        position: relative;
+        top: 100px;
+    }
+
+    .services-List div{
+        margin: 30px 10px;
+        position: relative;
+        left: -5px;
+        height: 350px;
+    }
+
+    .services-List{
+        display: contents;
+        margin: 30px 20px;
+        padding: 40px;
+
+    }
+
+    .typed-cursor {
+        opacity: 0.0;
+    }
+    
+    .contact-left {
+        position: relative;
+        top: 15px;
     }
 
     nav ul{
@@ -452,6 +514,20 @@ form .btn2{
         padding-top: 50px;
     }
 
+    .work{
+        height: 198px;
+        width: 251px;
+        margin: 20px 10px;
+    }
+
+    .work-list{
+        display: contents;
+        
+    }
+    .work img {
+        height: 209px;
+        width: 231px;
+    }
     .sub-title{
         font-size: 40px;
     }
@@ -459,7 +535,7 @@ form .btn2{
         flex-basis: 100%;
     }
     .about-col-1{
-        margin-bottom: 30px;
+        margin-bottom: 207px;
     }
     .about-col-2{
         font-size: 14px;
@@ -474,6 +550,32 @@ form .btn2{
     .copyright{
         font-size: 14px;
     }
+    .copyright{
+        margin-top: 30px;
+    }
+    .contact-right{
+       position: relative;
+        top:3px;
+    
+    }
+    .myinfo{
+        display: contents;
+    }
+
+    div .myphoto {
+        position: relative;
+        top: -472px;
+        left: -20px;
+        height: 370px;
+        width: 390px;
+        opacity: 0.7;
+    }
+    #services{
+    position: relative;
+    top:190px
+   }
+
+
 
 }
 
